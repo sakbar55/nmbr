@@ -18,3 +18,8 @@ if guess > number
   print('Your guess is too high. Guess again.')
   guess= gets.to_i
 end
+
+if guess == number
+  puts "You guessed right!"
+  exit
+end
